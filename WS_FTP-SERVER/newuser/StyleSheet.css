@@ -1,0 +1,217 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html    
+{
+background-color : #DDE1C9;
+ background-size: 1570px;
+ height:85%;
+
+}
+
+#Title
+{
+ background-image:url('images/logo-vertex.jpg');
+  height: 206px;
+ width: 668px;
+}
+
+#feedback-page{
+	text-align:center;
+}
+
+#form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+    height: 1px;
+}
+
+#form-div {
+	background-color:rgba(75,75,76,0.2);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:60px;
+	width: 550px;
+	float: left;
+	left: 43%;
+	position: absolute;
+    margin-top:150px;
+	margin-left: -260px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+    top: 97px;
+    height: 363px;
+}
+
+.feedback-input {
+	color:rgba(71,71,71,3.2);
+	font-family: Helvetica, Arial, sans-serif;
+     font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 18px;
+	background-color: #fbfbfb;
+	padding: 14px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 1px solid #3498db;
+	color: #f69610;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#username{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#username:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#email:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+	background-size: 30px 30px;
+  background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus 
+{
+	background-color:white;
+}
+
+#Submit
+{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	border: #fbfbfb solid 1px;
+	cursor:pointer;
+	background-color:#fbfbfb;
+	color:rgba(0,0,0,0);
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#Submit{
+	background-color: rgba(0,0,0,0);
+	color: #008be8;
+}
+
+.submit:hover {
+	color: #3498db;
+}
+.submit:hover 
+{
+  width:100%;
+  background-color:white;
+}
+
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+.success, .error
+{
+
+    margin: 10px 0px;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+.success
+{
+    color: #4F8A10;
+    background-color:rgba(0,0,0,0);
+    background-image:url('images/success.png');
+}
+
+.error
+{
+    color: #D8000C;
+    background-color:rgba(0,0,0,0);
+    background-image:url('images/error.png');
+}
+
+#styled-select select 
+{
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   }
+   
+#styled-select
+ {
+   width: 240px;
+   height: 34px;
+   overflow: hidden;
+   background: url(images/new_arrow.png) no-repeat right #ddd;
+   border: 1px solid #ccc;
+   }
+  
+
